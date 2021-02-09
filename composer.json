@@ -1,0 +1,29 @@
+{
+    "name": "imponeer/extensions-setup-contracts",
+    "description": "Interfaces for writing setup logic when installing extensions",
+    "type": "library",
+    "require": {
+        "imponeer/log-data-output-decorator": "^1.0",
+        "php": ">=7.1"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Raimondas Rimkevičius",
+            "email": "github@mekdrop.name"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Imponeer\\Contracts\\ExtensionsSetup\\": "src/"
+        }
+    },
+    "keywords": [
+        "setup",
+        "contracts",
+        "extensions",
+        "abstractions",
+        "decoupling",
+        "interfaces"
+    ]
+}

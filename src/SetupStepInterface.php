@@ -1,6 +1,5 @@
 <?php
 
-
 namespace Imponeer\Contracts\ExtensionsSetup;
 
 use Imponeer\Decorators\LogDataOutput\OutputDecorator;

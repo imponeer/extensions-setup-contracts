@@ -10,17 +10,18 @@ jobs:
     runs-on: ubuntu-latest
     continue-on-error: false
     strategy:
-      max-parallel: 3
+      max-parallel: 6
       matrix:
-        include:
-          - composer: 2
-            php: 8.0
-          - composer: 1
-            php: 7.2
-          - composer: 1
-            php: 7.3
-          - composer: 1
-            php: 7.4
+        composer:
+          - 2
+        php:
+          - 7.2
+          - 7.4
+          - 7.3
+          - 8.0
+          - 8.1
+          - 8.2
+          - 8.3
     name: Test - php:${{ matrix.php }}; composer:${{ matrix.composer }}
     steps:
       - name: Checkout

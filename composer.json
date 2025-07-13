@@ -26,5 +26,12 @@
         "abstractions",
         "decoupling",
         "interfaces"
-    ]
+    ],
+    "require-dev": {
+        "squizlabs/php_codesniffer": "^3.9"
+    },
+    "scripts": {
+        "phpcs": "phpcs --standard=phpcs.xml.dist src/",
+        "phpcbf": "phpcbf --standard=phpcs.xml.dist src/"
+    }
 }

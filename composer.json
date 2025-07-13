@@ -4,7 +4,7 @@
     "type": "library",
     "require": {
         "imponeer/log-data-output-decorator": "^1.0",
-        "php": ">=7.1",
+        "php": ">=8.3",
         "imponeer/extension-info-contracts": "^0.1.0 || ^0.3"
     },
     "license": "MIT",

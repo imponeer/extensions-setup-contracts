@@ -5,7 +5,7 @@
     "require": {
         "imponeer/log-data-output-decorator": "^1.0",
         "php": ">=8.3",
-        "imponeer/extension-info-contracts": "^0.1.0 || ^0.3"
+        "imponeer/extension-info-contracts": "^0.1.0 || ^0.3 || ^0.5"
     },
     "license": "MIT",
     "authors": [

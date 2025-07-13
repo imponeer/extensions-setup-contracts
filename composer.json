@@ -28,10 +28,12 @@
         "interfaces"
     ],
     "require-dev": {
-        "squizlabs/php_codesniffer": "^3.9"
+        "squizlabs/php_codesniffer": "^3.9",
+        "phpstan/phpstan": "^2.0"
     },
     "scripts": {
-        "phpcs": "phpcs --standard=phpcs.xml.dist src/",
-        "phpcbf": "phpcbf --standard=phpcs.xml.dist src/"
+        "phpcs": "phpcs",
+        "phpcbf": "phpcbf",
+        "phpstan": "phpstan"
     }
 }

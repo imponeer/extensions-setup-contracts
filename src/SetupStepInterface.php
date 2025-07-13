@@ -22,11 +22,11 @@ interface SetupStepInterface
      * Execute setup step
      *
      * @param InstallableExtensionInterface $extension Object that will be installed/updated or removed
-     * @param array $params Extra params
+     * @param array<string, mixed> $params Extra params
      *
      * @return bool
      */
-    public function execute(InstallableExtensionInterface $extension, ...$params): bool;
+    public function execute(InstallableExtensionInterface $extension, array $params): bool;
 
     /**
      * Get priority to use this step

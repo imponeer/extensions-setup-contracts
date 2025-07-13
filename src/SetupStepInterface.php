@@ -34,5 +34,4 @@ interface SetupStepInterface
      * @return int
      */
     public function getPriority(): int;
-
 }

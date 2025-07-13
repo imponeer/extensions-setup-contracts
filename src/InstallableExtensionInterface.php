@@ -11,12 +11,10 @@ use Imponeer\Contracts\ExtensionInfo\ExtensionInfoInterface;
  */
 interface InstallableExtensionInterface
 {
-
     /**
      * Gets extension info
      *
      * @return ExtensionInfoInterface
      */
     public function getExtensionInfo(): ExtensionInfoInterface;
-
 }

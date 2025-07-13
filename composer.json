@@ -3,7 +3,7 @@
     "description": "Interfaces for writing setup logic when installing extensions",
     "type": "library",
     "require": {
-        "imponeer/log-data-output-decorator": "^1.0",
+        "imponeer/log-data-output-decorator": "^1.0 || ^3.0",
         "php": ">=8.3",
         "imponeer/extension-info-contracts": "^0.1.0 || ^0.3 || ^0.5"
     },

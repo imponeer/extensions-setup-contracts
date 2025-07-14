@@ -27,11 +27,4 @@ interface SetupStepInterface
      * @return bool
      */
     public function execute(InstallableExtensionInterface $extension, array $params): bool;
-
-    /**
-     * Get priority to use this step
-     *
-     * @return int
-     */
-    public function getPriority(): int;
 }

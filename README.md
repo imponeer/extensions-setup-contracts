@@ -47,12 +47,6 @@ class DatabaseSetupStep implements SetupStepInterface
         // Perform database setup logic
         return true;
     }
-
-    public function getPriority(): int
-    {
-        // Return priority (lower numbers = higher priority)
-        return 10;
-    }
 }
 ```
 

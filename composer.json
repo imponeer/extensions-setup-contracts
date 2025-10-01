@@ -28,7 +28,7 @@
         "interfaces"
     ],
     "require-dev": {
-        "squizlabs/php_codesniffer": "^3.9",
+        "squizlabs/php_codesniffer": "^3.9 || ^4.0",
         "phpstan/phpstan": "^2.0"
     },
     "scripts": {
